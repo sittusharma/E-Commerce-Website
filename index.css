@@ -370,4 +370,165 @@ nav ul{
     background-color: rgb(4, 141, 141);
     cursor: pointer;
 
+
+}/* ================= RESPONSIVE ADD ON ================= */
+
+/* Large Tablets & Small Laptops */
+@media (max-width: 1024px) {
+
+  .mainPage {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .mainPage img {
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .card {
+    flex-wrap: wrap;
+  }
+
+  .trd {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutus {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+  }
+
+  .aboutus img {
+    width: 100%;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav .logo {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 0;
+  }
+
+  ul li a {
+    font-size: 18px;
+    margin-inline: 12px;
+  }
+
+  .text h1 {
+    font-size: 42px;
+  }
+
+  .card .crd {
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .card .crd:hover {
+    width: 90%;
+    height: auto;
+  }
+
+  .trending {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .trending img {
+    width: 100%;
+  }
+
+  .letter {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .inp {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .inp input,
+  .inp button {
+    width: 100%;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer .Ftext {
+    margin: 20px 0;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 480px) {
+
+  .text h1 {
+    font-size: 32px;
+  }
+
+  .text h2 {
+    font-size: 18px;
+  }
+
+  .text p {
+    font-size: 15px;
+  }
+
+  .text button {
+    width: 120px;
+    font-size: 18px;
+  }
+
+  ul li a {
+    font-size: 16px;
+  }
+
+  .form input,
+  .form button {
+    width: 90%;
+  }
+
+  .connect {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact img {
+    width: 90%;
+  }
+
+  .fullPage {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cartText .btn button,
+  .relode {
+    width: 90%;
+  }
 }
